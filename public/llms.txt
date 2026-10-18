@@ -1,4 +1,4 @@
-# מיגיקאל סירוויס בע"מ — Generative Engine Optimization Map
+# מיגיקאל סירוויס — Generative Engine Optimization Map
 
 > קבוצת פרוצס היא השותף התפעולי שלך, המספקת שירותי ניקיון ואספקת כוח אדם, ניהול ואחזקת מבנים תחת קורת גג אחת. אספקת שירותים מקיפים ופתרונות מתקדמים בפריסה ארצית.
 
@@ -118,18 +118,18 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `phone` (tel)
-  - `email` (email)
+  - `name` (text, required)
+  - `phone` (tel, required)
+  - `email` (email, required)
   - `service` (text)
   - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About מיגיקאל סירוויס בע"מ
+## About מיגיקאל סירוויס
 קבוצת פרוצס היא השותף התפעולי שלך, המספקת שירותי ניקיון ואספקת כוח אדם, ניהול ואחזקת מבנים תחת קורת גג אחת. אספקת שירותים מקיפים ופתרונות מתקדמים בפריסה ארצית.
 
 ## Services/Products
